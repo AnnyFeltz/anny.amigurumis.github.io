@@ -23,14 +23,14 @@ body {
     justify-content: center;
     padding: 30px;
     width: auto;
-    height: 150px;
+    height: 110px;
 }
 
 #logo {
     border: 5px white solid;
     border-radius: 100%;
-    width: 150px;
-    height: 150px;
+    width:125px;
+    height:125px;
 }
 
 #imagem_home {
@@ -44,10 +44,10 @@ body {
     align-items: center;
     justify-content: space-around;
     width: auto;
-    height: 100px;
+    height: 80px;
     color: white;
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menu a {
@@ -58,9 +58,9 @@ body {
 #conteudo {
     display: flex;
     background-image: url("img/fundo.jpeg");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
     background-repeat: repeat;
-    height: 600px;
+    height: 450px;
     font-family: "Dream";
     align-items: center;
     justify-content: space-around;
@@ -80,10 +80,10 @@ body {
 #galeria {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    row-gap: 50px;
+    row-gap: 30px;
     padding: 30px;
     background-image: url("img/fundo.jpeg");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
     background-repeat: repeat;
     height: fit-content;
     font-family: "Dream";
@@ -112,6 +112,10 @@ body {
     border-radius: 25%;
 }
 
+#rodape a {
+    text-decoration: none;
+}
+
 p {
     font-family: "Dream";
 }
@@ -119,6 +123,7 @@ p {
 h1 {
     font-family: "Dream";
     text-align: center;
+    font-size: 25px;
 }
 
 h3 {
