@@ -100,6 +100,33 @@ body {
     box-shadow: rgba(24, 40, 83, 0.219) 5px 5px 10px 1px;
 }
 
+#contato {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 30px 30px 30px 30px 30px 150px;
+    background-image: url("img/fundo.jpeg");
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    height: 450px;
+    font-family: "Dream";
+    color: rgb(59, 112, 156);
+    padding: 30px;
+    
+}
+
+label {
+    grid-column: 1;
+    align-self: center;
+}
+
+input {
+    grid-column: 1;
+}
+
+textarea {
+    grid-column: 1;
+}
+
 #rodape {
     background-color: rgb(202, 219, 240);
     width: auto;
