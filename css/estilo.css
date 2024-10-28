@@ -114,6 +114,19 @@ body {
     
 }
 
+#contato label {
+    grid-column: 1;
+    align-self: center;
+}
+
+#contato input {
+    grid-column: 1;
+}
+
+#contato textarea {
+    grid-column: 1;
+}
+
 #rodape {
     background-color: rgb(202, 219, 240);
     width: auto;
@@ -144,17 +157,4 @@ h1 {
 
 h3 {
     font-family: "Milk";
-}
-
-label {
-    grid-column: 1;
-    align-self: center;
-}
-
-input {
-    grid-column: 1;
-}
-
-textarea {
-    grid-column: 1;
 }
