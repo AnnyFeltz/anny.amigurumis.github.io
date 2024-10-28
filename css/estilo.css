@@ -111,7 +111,6 @@ body {
     font-family: "Dream";
     color: rgb(59, 112, 156);
     padding: 30px;
-    
 }
 
 #contato label {
@@ -125,6 +124,11 @@ body {
 
 #contato textarea {
     grid-column: 1;
+}
+
+#contato iframe {
+    grid-column: 2;
+    grid-row: auto;
 }
 
 #rodape {
