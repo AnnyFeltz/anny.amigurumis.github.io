@@ -23,7 +23,7 @@ body {
     background-color: rgb(184, 203, 224);
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding: 30px;
     width: auto;
     height: 110px;
 }
@@ -62,18 +62,14 @@ body {
     background-image: url("img/fundo.jpeg");
     background-size: 150px 150px;
     background-repeat: repeat;
-    height: fit-content;
+    height: 450px;
     font-family: "Dream";
     align-items: center;
-   
+    justify-content: space-around;
     color: rgb(59, 112, 156);
-    padding: 10%;
-    
 }
 
 #conteudo img {
-    width: 45%;
-    height: auto;
     border-radius: 20%;
     border: 5px rgb(202, 219, 240) solid;
     box-shadow: rgba(24, 40, 83, 0.219) 10px 10px 10px 1px;
@@ -102,8 +98,6 @@ body {
     border-radius: 10%;
     border: 5px rgb(202, 219, 240) solid;
     box-shadow: rgba(24, 40, 83, 0.219) 5px 5px 10px 1px;
-    width: 70%;
-    height: auto;
 }
 
 #contato {
@@ -118,19 +112,6 @@ body {
     color: rgb(59, 112, 156);
     padding: 30px;
     
-}
-
-label {
-    grid-column: 1;
-    align-self: center;
-}
-
-input {
-    grid-column: 1;
-}
-
-textarea {
-    grid-column: 1;
 }
 
 #rodape {
@@ -158,8 +139,7 @@ p {
 h1 {
     font-family: "Dream";
     text-align: center;
-    font-size: 1fr;
-
+    font-size: 25px;
 }
 
 h3 {
