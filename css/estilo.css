@@ -128,7 +128,8 @@ body {
 
 #contato iframe {
     grid-column: 2;
-    grid-row: 1 / 6;
+    grid-row: 1;
+    justify-self: center;
 }
 
 #rodape {
