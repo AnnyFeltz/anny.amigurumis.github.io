@@ -119,7 +119,7 @@ body {
 #contato {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30px 30px 30px 30px 30px 150px 100px;
+    grid-template-rows: 30px 30px 30px 30px 30px 150px 30px 60px;
     row-gap: 10px;
     background-image: url("img/fundo.jpeg");
     background-size: 150px 150px;
